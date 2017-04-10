@@ -32,7 +32,8 @@
     "load-pkg": "^3.0.1",
     "meow": "^3.7.0",
     "npm-to-github": "^1.0.0",
-    "p-settle": "^2.0.0"
+    "p-settle": "^2.0.0",
+    "update-notifier": "^2.1.0"
   },
   "devDependencies": {
     "ava": "^0.17.0",
