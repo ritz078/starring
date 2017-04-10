@@ -1,13 +1,13 @@
 {
-  "name": "<%= moduleName %>",
+  "name": "starring",
   "version": "0.0.0",
-  "description": "",
+  "description": "Star all the packages being used in the current project.",
   "license": "MIT",
-  "repository": "<%= githubUsername %>/<%= moduleName %>",
+  "repository": "ritz078/starring",
   "author": {
-    "name": "<%= name %>",
-    "email": "<%= email %>",
-    "url": "<%= website %>"
+    "name": "Ritesh Kumar",
+    "email": "rkritesh078@gmail.com",
+    "url": "github.com/ritz078/starring"
   },
   "bin": "cli.js",
   "engines": {
@@ -21,8 +21,8 @@
     "cli.js"
   ],
   "keywords": [
-    "cli",
     "cli-app",
+    "cli",
     ""
   ],
   "dependencies": {
@@ -31,8 +31,5 @@
   "devDependencies": {
     "ava": "^0.17.0",
     "xo": "^0.17.0"
-  },
-  "xo": {
-    "esnext": true
   }
 }

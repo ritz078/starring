@@ -1,20 +1,20 @@
 #!/usr/bin/env node
 'use strict';
 const meow = require('meow');
-const <%= camelModuleName %> = require('.');
+const starring = require('.');
 
 const cli = meow(`
 	Usage
-	  $ <%= moduleName %> [input]
+	  $ starring [input]
 
 	Options
 	  --foo  Lorem ipsum [Default: false]
 
 	Examples
-	  $ <%= moduleName %>
+	  $ starring
 	  unicorns & rainbows
-	  $ <%= moduleName %> ponies
+	  $ starring ponies
 	  ponies & rainbows
 `);
 
-console.log(<%= camelModuleName %>(cli.input[0] || 'unicorns'));
+console.log(starring(cli.input[0] || 'unicorns'));
