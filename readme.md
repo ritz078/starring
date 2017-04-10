@@ -1,31 +1,68 @@
-# node-module-boilerplate
+# <%= moduleName %> [![Build Status](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>.svg?branch=master)](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>)
 
-> Boilerplate to kickstart creating a node module
-
-Optionally with a [CLI](http://en.wikipedia.org/wiki/Command-line_interface).
-
-This is what I use for [my own modules](https://www.npmjs.com/~sindresorhus).
+>
 
 
-## Getting started
-
-In your directory, run:
+## Install
 
 ```
-$ curl -fsSL https://github.com/sindresorhus/node-module-boilerplate/archive/master.tar.gz | tar -xz --strip-components=2 node-module-boilerplate-master/boilerplate
+$ npm install --save <%= moduleName %>
 ```
 
-Or if you also want a CLI:
+
+## Usage
+
+```js
+const <%= camelModuleName %> = require('<%= moduleName %>');
+
+<%= camelModuleName %>('unicorns');
+//=> 'unicorns & rainbows'
+```
+
+
+## API
+
+### <%= camelModuleName %>(input, [options])
+
+#### input
+
+Type: `string`
+
+Lorem ipsum.
+
+#### options
+
+##### foo
+
+Type: `boolean`<br>
+Default: `false`
+
+Lorem ipsum.
+
+
+## CLI
 
 ```
-$ curl -fsSL https://github.com/sindresorhus/node-module-boilerplate/archive/master.tar.gz | tar -xz --strip-components=2 node-module-boilerplate-master/cli-boilerplate
+$ npm install --global <%= moduleName %>
 ```
 
-Alternatively you can `git clone` or [download](https://github.com/sindresorhus/node-module-boilerplate/archive/master.zip) this repo and get contents of the `boilerplate` or `cli-boilerplate` folder.
+```
+$ <%= moduleName %> --help
 
-There's also a [Yeoman generator](https://github.com/sindresorhus/generator-nm).
+  Usage
+    <%= moduleName %> [input]
+
+  Options
+    --foo  Lorem ipsum [Default: false]
+
+  Examples
+    $ <%= moduleName %>
+    unicorns & rainbows
+    $ <%= moduleName %> ponies
+    ponies & rainbows
+```
 
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [<%= name %>](https://github.com/<%= githubUsername %>)
