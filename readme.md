@@ -9,11 +9,11 @@
 </p>
 
 ## Features
-1. Star selected dependencies : `starring`
-1. Star all dependencies of the current project: `starring --all`
-1. Star a particular package: `starring colors`
-1. Star selected global dependencies : `starring --global`
-1. Star all global dependencies: `starring --global --all`
+- [x] Star selected dependencies : `starring`
+- [x] Star all dependencies of the current project: `starring --all`
+- [x] Star a particular package: `starring colors`
+- [x] Star selected global dependencies : `starring --global`
+- [x] Star all global dependencies: `starring --global --all`
 
 ## Authorization
 You will need to provide your GitHub usename and password for the first time so that it can create a token. The scope of the token is `'public_repo'`. After that it won't ask for any credentials.
