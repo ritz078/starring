@@ -31,6 +31,7 @@
     "colors": "^1.1.2",
     "gh-got": "^5.0.0",
     "ghauth": "^3.2.1",
+    "global-packages": "^0.1.1",
     "inquirer": "^3.0.6",
     "load-pkg": "^3.0.1",
     "meow": "^3.7.0",
