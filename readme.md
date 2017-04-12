@@ -1,65 +1,33 @@
-# starring [![Build Status](https://travis-ci.org/ritz078/starring.svg?branch=master)](https://travis-ci.org/ritz078/starring)
+<p align="center">
+  <img src="./logo.png" align="center" alt="" width="300"/>
+</p>
 
-> Star all the packages being used in the current project.
+> Star the packages on GitHub being used in the current project.
 
+You will need to provide your GitHub usename and password for the first time so that it can create a token. The scope of the token is `'public_repo'`. After that it won't ask for any credentials.
 
-## Install
-
-```
-$ npm install --save starring
-```
-
-
-## Usage
-
-```js
-const starring = require('starring');
-
-starring('unicorns');
-//=> 'unicorns & rainbows'
-```
-
-
-## API
-
-### starring(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
-
-
-## CLI
+## CLI Install
 
 ```
 $ npm install --global starring
 ```
+## Features
+1. Star selected dependencies : `starring`
+1. Star all dependencies of the current project: `starring --all`
+1. Star a particular package: `starring colors`
 
 ```
-$ starring --help
-
-  Usage
-    starring [input]
+Usage
+    $ starring [input]
 
   Options
-    --foo  Lorem ipsum [Default: false]
+    --all  Star all the packages listed in the package.json from current directory. [Default: false]
 
   Examples
     $ starring
-    unicorns & rainbows
-    $ starring ponies
-    ponies & rainbows
+    presents UI to select the packages you want to star.
+    $ starring <package-name>
+    stars package-name npm package on GitHub.
 ```
 
 
