@@ -15,14 +15,16 @@
 1. Star selected global dependencies : `starring --global`
 1. Star all global dependencies: `starring --global --all`
 
+## Authorization
 You will need to provide your GitHub usename and password for the first time so that it can create a token. The scope of the token is `'public_repo'`. After that it won't ask for any credentials.
 
-## CLI Install
+## Install
 
 ```
 $ npm install --global starring
 ```
 
+## Usage Instructions
 ```
 Usage
     $ starring [input]
