@@ -5,7 +5,7 @@
 > Star the packages on GitHub being used in the current project or installed globally.
 
 <p align="center">
-  <img src="./demo.gif" align="center" alt="" width="600"/>
+  <img src="./demo.gif" align="center" alt="" width="800"/>
 </p>
 
 ## Features
