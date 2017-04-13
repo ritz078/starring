@@ -1,6 +1,6 @@
 {
   "name": "starring",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Star all the packages being used in the current project.",
   "license": "MIT",
   "repository": "ritz078/starring",
@@ -20,12 +20,15 @@
   },
   "files": [
     "index.js",
-    "cli.js"
+    "cli.js",
+    "dist"
   ],
   "keywords": [
     "cli-app",
     "cli",
-    ""
+    "star-github",
+    "star-npm",
+    "star"
   ],
   "dependencies": {
     "colors": "^1.1.2",
