@@ -31,16 +31,21 @@
     "star"
   ],
   "dependencies": {
+    "array-to-sentence": "^1.1.0",
+    "boxen": "^1.0.0",
+    "capitalize": "^1.0.0",
     "colors": "^1.1.2",
     "gh-got": "^5.0.0",
     "ghauth": "^3.2.1",
     "global-packages": "^0.1.1",
+    "got": "^6.7.1",
     "inquirer": "^3.0.6",
     "load-pkg": "^3.0.1",
     "meow": "^3.7.0",
-    "npm-to-github": "^1.0.1",
     "ora": "^1.2.0",
     "p-settle": "^2.0.0",
+    "parse-github-url": "^1.0.0",
+    "pluralize": "^4.0.0",
     "update-notifier": "^2.1.0"
   },
   "devDependencies": {
