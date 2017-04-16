@@ -1,6 +1,6 @@
 {
   "name": "starring",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Star all the packages being used in the current project.",
   "license": "MIT",
   "repository": "ritz078/starring",
@@ -48,6 +48,7 @@
     "parse-github-url": "^1.0.0",
     "pluralize": "^4.0.0",
     "read-pkg-up": "^2.0.0",
+    "rollup-plugin-filesize": "^1.3.0",
     "update-notifier": "^2.1.0"
   },
   "devDependencies": {
