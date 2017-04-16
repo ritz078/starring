@@ -15,7 +15,7 @@
   },
   "scripts": {
     "test": "xo && ava",
-    "prepublish": "babel lib --out-dir dist",
+    "prepublish": "rm -rf dist && babel lib --out-dir dist",
     "build:watch": "babel lib -w --out-dir dist",
     "lint": "xo"
   },
@@ -41,12 +41,13 @@
     "got": "^6.7.1",
     "inquirer": "^3.0.6",
     "is-npm": "^1.0.0",
-    "load-pkg": "^3.0.1",
+    "just-is-empty": "^1.0.1",
     "meow": "^3.7.0",
     "ora": "^1.2.0",
     "p-settle": "^2.0.0",
     "parse-github-url": "^1.0.0",
     "pluralize": "^4.0.0",
+    "read-pkg-up": "^2.0.0",
     "update-notifier": "^2.1.0"
   },
   "devDependencies": {
