@@ -16,7 +16,8 @@
   "scripts": {
     "test": "xo && ava",
     "prepublish": "babel lib --out-dir dist",
-    "build:watch": "babel lib -w --out-dir dist"
+    "build:watch": "babel lib -w --out-dir dist",
+    "lint": "xo"
   },
   "files": [
     "index.js",
@@ -32,7 +33,6 @@
   ],
   "dependencies": {
     "array-to-sentence": "^1.1.0",
-    "boxen": "^1.0.0",
     "capitalize": "^1.0.0",
     "colors": "^1.1.2",
     "gh-got": "^5.0.0",
@@ -40,6 +40,7 @@
     "global-packages": "^0.1.1",
     "got": "^6.7.1",
     "inquirer": "^3.0.6",
+    "is-npm": "^1.0.0",
     "load-pkg": "^3.0.1",
     "meow": "^3.7.0",
     "ora": "^1.2.0",
