@@ -1,6 +1,6 @@
 {
   "name": "starring",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Star all the packages being used in the current project.",
   "license": "MIT",
   "repository": "ritz078/starring",
