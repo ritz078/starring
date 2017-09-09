@@ -44,3 +44,5 @@ Usage
 ## License
 
 MIT © [Ritesh Kumar](https://github.com/ritz078/starring)
+
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/8CBegPnJTnjtddvd2E18Su4F/ritz078/starring'>  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/8CBegPnJTnjtddvd2E18Su4F/ritz078/starring.svg' /></a>
